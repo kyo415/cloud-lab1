@@ -171,7 +171,7 @@ function App() {
                         STUDENT MANAGEMENT SYSTEM
                     </p>
 
-                    <h1>Quản lý sinh viên</h1>
+                    <h1>Version 2.0 - Quản lý sinh viên</h1>
 
                     <p className="description">
                         Quản lý thông tin sinh viên nhanh chóng và đơn giản
@@ -196,7 +196,7 @@ function App() {
                         </div>
 
                         <div>
-                            <h2>
+                            <h2 style={{color: "#1F2937"}}>
                                 {editingId
                                     ? "Cập nhật sinh viên"
                                     : "Thêm sinh viên"}
@@ -285,10 +285,10 @@ function App() {
                         </div>
 
                         <div>
-                            <h2>Danh sách sinh viên</h2>
+                            <h2 style={{color: "#1F2937"}}>Danh sách sinh viên</h2>
 
                             <p>
-                                Danh sách sinh viên trong hệ thống
+                                Quản lý sinh viên
                             </p>
                         </div>
 
