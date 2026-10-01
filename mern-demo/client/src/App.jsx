@@ -1,4 +1,7 @@
-import { useEffect, useState } from "react";
+const API =
+  window.location.hostname.includes("app.github.dev")
+    ? `https://${window.location.hostname.replace("-5173.", "-5000.")}/api/students`
+    : "http://localhost:5000/api/students";import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
